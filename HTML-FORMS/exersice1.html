@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML</title>
+    <style>
+      input {
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form>
+      <table>
+        <tr>
+          <td><label>First name </label></td>
+          <td>
+            <input type="text" />
+          </td>
+        </tr>
+        <tr>
+          <td><label>Last name </label></td>
+          <td>
+            <input type="text" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="email">Mobile Number</label></td>
+          <td>
+            <input type="email" id="email" name="email" required />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="gender">Gender</label></td>
+          <td>
+            <input type="radio" value="HTML" />
+            <label for="html">HTML</label>
+            <input type="radio" value="CSS" />
+            <label for="css">CSS</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="country">Email</label></td>
+          <td>
+            <input type="email" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="carModel">Favourite Music</label></td>
+          <td>
+            <input type="checkbox" value="POP" />
+            <label> POP</label>
+            <input type="checkbox" value="Rock" />
+            <label> Rock</label>
+            <input type="checkbox" value="Other" />
+            <label>Other</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="other">Additional Details</label>
+          </td>
+          <td>
+            <textarea id="other" name="other" rows="4" cols="50"></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="checkbox" value="text" />
+            <label>I agree to the terms and conditions</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" />
+          </td>
+          <td>
+            <input type="reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
