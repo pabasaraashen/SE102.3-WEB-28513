@@ -34,10 +34,20 @@
         <tr>
           <td><label for="gender">Gender</label></td>
           <td>
-            <input type="radio" value="HTML" />
-            <label for="html">HTML</label>
-            <input type="radio" value="CSS" />
-            <label for="css">CSS</label>
+            <input
+              type="radio"
+              id="male"
+              name="gender"
+              value="male"
+              required
+            /><label for="manual">Male</label>
+            <input
+              type="radio"
+              id="female"
+              name="gender"
+              value="female"
+              required
+            /><label for="auto">Female</label><br />
           </td>
         </tr>
 
@@ -51,11 +61,11 @@
         <tr>
           <td><label for="carModel">Favourite Music</label></td>
           <td>
-            <input type="checkbox" value="POP" />
+            <input type="checkbox" id="pop" name="pop" value="pop" required />
             <label> POP</label>
-            <input type="checkbox" value="Rock" />
+            <input type="checkbox" id="pop" name="pop" value="Rock" required />
             <label> Rock</label>
-            <input type="checkbox" value="Other" />
+            <input type="checkbox" id="pop" name="pop" value="Other" required />
             <label>Other</label>
           </td>
         </tr>
@@ -87,3 +97,4 @@
     </form>
   </body>
 </html>
+    
